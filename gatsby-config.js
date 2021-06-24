@@ -54,31 +54,19 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
 
-    // {
-      // See https://www.gatsbyjs.com/plugins/gatsby-plugin-manifest/?=gatsby-plugin-manifest
-      // resolve: `gatsby-plugin-manifest`,
-      // options: {
-      //   name: `Gatsby Starter WordPress Blog`,
-      //   short_name: `GatsbyJS & WP`,
-      //   start_url: `/`,
-      //   background_color: `#ffffff`,
-      //   theme_color: `#663399`,
-      //   display: `minimal-ui`,
-      //   icon: `content/assets/gatsby-icon.png`,
-    //   },
-    // },
-    
-      {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `GatsbyJS`,
-        short_name: `GatsbyJS`,
-        start_url: `/`,
-        background_color: `#f7f0eb`,
-        theme_color: `#a2466c`,
-        display: `standalone`,
-      },
-    },
+     {
+       See https://www.gatsbyjs.com/plugins/gatsby-plugin-manifest/?=gatsby-plugin-manifest
+       resolve: `gatsby-plugin-manifest`,
+       options: {
+         name: `Gatsby Starter WordPress Blog`,
+         short_name: `GatsbyJS & WP`,
+         start_url: `/`,
+         background_color: `#ffffff`,
+         theme_color: `#663399`,
+         display: `minimal-ui`,
+         icon: `content/assets/gatsby-icon.png`,
+       },
+     },
 
     // See https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet/?=gatsby-plugin-react-helmet
     `gatsby-plugin-react-helmet`,
