@@ -1,3 +1,6 @@
+import mitt from 'mitt'
+
+const emitter = mitt()
 const path = require(`path`)
 const chunk = require(`lodash/chunk`)
 
