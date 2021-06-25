@@ -55,7 +55,7 @@ module.exports = {
     `gatsby-plugin-sharp`,
 
      {
-       See https://www.gatsbyjs.com/plugins/gatsby-plugin-manifest/?=gatsby-plugin-manifest
+       //See https://www.gatsbyjs.com/plugins/gatsby-plugin-manifest/?=gatsby-plugin-manifest
        resolve: `gatsby-plugin-manifest`,
        options: {
          name: `Gatsby Starter WordPress Blog`,
@@ -66,6 +66,13 @@ module.exports = {
          display: `minimal-ui`,
          icon: `content/assets/gatsby-icon.png`,
        },
+       resolve: "gatsby-woocommerce-theme",
+		options: {
+			wordPressUrl: 'https://contentsolutions.pxdev.pm',
+			gatsbySiteUrl: 'https://contentsolutions.pxdev.pm',
+			//googleTagManagerId: 'xxxx',
+			//fbAppId: 'xxxx'
+		}
      },
 
     // See https://www.gatsbyjs.com/plugins/gatsby-plugin-react-helmet/?=gatsby-plugin-react-helmet
