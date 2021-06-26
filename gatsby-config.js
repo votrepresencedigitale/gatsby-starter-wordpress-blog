@@ -69,7 +69,7 @@ module.exports = {
        resolve: "gatsby-woocommerce-theme",
 		options: {
 			wordPressUrl: 'https://contentsolutions.pxdev.pm',
-			gatsbySiteUrl: 'https://contentsolutions.pxdev.pm',
+			gatsbySiteUrl: 'https://contentsolutions.pxdev.pm'
 			//googleTagManagerId: 'xxxx',
 			//fbAppId: 'xxxx'
 		}
